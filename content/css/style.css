@@ -1,0 +1,140 @@
+/*
+    Basic settings for the app
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: rgb(56, 54, 54);
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+    background-image: url(img/background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    color: #555;
+    position: relative;
+}
+
+/*
+    Working with divs and create a widow for app
+*/
+.wrapper {
+    width: 1000px;
+    position: absolute;
+    background-color: #fff;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.player-0-panel,
+.player-1-panel {
+    height: 500px;
+    width: 500px;
+    padding: 100px;
+    text-align: center;
+}
+
+.player-0-panel {
+    float: left;
+}
+
+.player-1-panel {
+    float: right;
+}
+
+.player-name {
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.player-score {
+    font-size: 65px;
+    color: rgb(199, 62, 62);
+    margin-bottom: 100px;
+}
+
+.player-current-box {
+    background-color: rgb(199, 62, 62);
+    width: 50%;
+    display: inline-block;
+}
+
+.player-current-label {
+    padding-top: 10px;
+    color: rgb(37, 37, 37);
+    text-transform: uppercase;
+    font-size: 70%;
+}
+
+.player-current-score {
+    padding: 10px;
+    font-size: 140%;
+    color: rgb(214, 212, 212);
+}
+
+/*
+    Creating nice buttons and animations
+*/
+button {
+    position: absolute;
+    border: none;
+    background: none;
+    width: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 300;
+    transition: font-weight 0.3s;
+}
+
+i {
+    color: rgb(199, 62, 62);
+    display: inline-block;
+    font-size: 30px;
+    vertical-align: text-top;
+    margin-right: 15px;
+    margin-top: -5px;
+    transition: margin 0.3s;
+    
+}
+
+button:hover i {
+    margin-right: 20px;
+}
+
+.btn-new { top: 70px; }
+.btn-roll { top: 350px; }
+.btn-hold { top: 410px; }
+.btn-info { 
+    top: 460px;
+    margin-left: 7px; 
+}
+
+/*
+    Creating main structure of the game
+*/
+.active { background-color: #f3f6f7; }
+
+.active .player-name { font-weight: 300; }
+
+.active .player-name::after {
+    content: "\2022";
+    font-size: 47px;
+    position: absolute;
+    color: rgb(199, 62, 62);
+}
