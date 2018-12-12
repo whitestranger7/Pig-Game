@@ -138,3 +138,13 @@ button:hover i {
     position: absolute;
     color: rgb(199, 62, 62);
 }
+
+.dice {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.10);
+    transform: translateX(-50%);
+    top: 180px;
+    left: 50%;
+}
