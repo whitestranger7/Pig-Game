@@ -1,5 +1,4 @@
 <b>My first test game named "Pig Game"</b><br>
-<<<<<<< HEAD
 
 ------------------------------------------------------------
 
@@ -12,9 +11,6 @@ When "New Game" button was clicked - the game will be set up to new game<br>
 
 ------------------------------------------------------------
 
-=======
------------------------------------------------------
->>>>>>> 4c3dbc2282a48d0fd8f4ee22f91e14b79a8a0ef1
 v0.1:<br>
 <ul>
     <li>Main structure of game is done for now and ready to use.</li>
@@ -27,6 +23,3 @@ v1.0 (Stable App):<br>
     <li>The app is available for playing the Pig Game. script.js was added to game folder (content/js/script.js)</li>
     <li>Info button still unable to use. It'll become as soon as posible</li>
 </ul>
-=======
-</ul>
->>>>>>> 4c3dbc2282a48d0fd8f4ee22f91e14b79a8a0ef1
