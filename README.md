@@ -15,11 +15,11 @@ v0.1:<br>
 <ul>
     <li>Main structure of game is done for now and ready to use.</li>
     <li>Next update will include game logic using JavaScript. It will be ready for playing soon</li>
-<<<<<<< HEAD
 </ul><br>
 
 v1.0 (Stable App):<br>
 <ul>
-    <li>The app is available for playing the Pig Game. script.js was added to game folder (content/js/script.js)</li>
+    <li>The app is available for playing the Pig Game</li>
+    <li>script.js was added to game folder (content/js/script.js)</li>
     <li>Info button still unable to use. It'll become as soon as posible</li>
 </ul>
