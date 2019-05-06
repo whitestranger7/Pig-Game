@@ -1,4 +1,4 @@
-<b>My first test game named "Pig Game"</b><br>
+<b>My very first game named "Pig Game"</b><br>
 
 ------------------------------------------------------------
 
